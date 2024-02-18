@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env main.js",
+    "build": "deno compile --allow-net --allow-env --output=cors-deno main.js",
+    "start": "./cors-deno"
+  }
+}
